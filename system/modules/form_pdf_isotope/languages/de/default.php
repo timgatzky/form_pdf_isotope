@@ -12,4 +12,4 @@
  * permanent text corrections which are update-safe. 
  */
 
-$GLOBALS['TL_LANG']['MOD']['notification_center_form_pdf'] = 'Benachrichtungscenter, Form PDF';
+$GLOBALS['TL_LANG']['MODEL']['tl_iso_document']['form_pdf'][0] = 'Form PDF';
