@@ -20,16 +20,16 @@ namespace FormPDF;
 /**
  * Imports
  */
-#use Haste\Haste;
-use Isotope\Interfaces\IsotopeDocument as Base;
+use Isotope\Interfaces\IsotopeDocument as DocumentInterface;
 use Isotope\Interfaces\IsotopeProductCollection;
-use Isotope\Model\Document;
+use Isotope\Model\Document as Base;
+use FormPDF\FormPDFHelper;
 
 /**
  * Class file
  * IsotopeDocument
  */
-class IsotopeDocument extends Document implements Base
+class IsotopeDocument extends Base implements DocumentInterface
 {
 	/**
 	 * {@inheritdoc}
